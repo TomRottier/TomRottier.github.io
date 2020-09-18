@@ -10,6 +10,7 @@ function setup() {
     let h = windowHeight - 100;
     const canvas = createCanvas(h,h);
     canvas.parent('canvas');
+    pixelDensity(1)
     background(0)
     drawMandelbrot(x0, x1, y0, y1);
 }
