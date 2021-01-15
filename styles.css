@@ -58,18 +58,22 @@ color: black
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 600px;
 }
 
 .portfolio-item-wrapper {
     position: relative;
+    /* height: 400px;
+    width: 400px; */
 }
 
 .portfolio-img-background {
     height: 250px;
     width: 250px;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
+    margin: 0 auto
 }
 
 .img-text-wrapper {
@@ -122,8 +126,13 @@ color: black
     grid-template-columns: 1fr 1fr;
 }
 
-.profile-img-wrapper {
-    width: 100pc;
+.profile-img {
+    width: 50pc;
+    margin: auto;
+    text-align: center;
+}
+
+.about-img {
 }
 
 .profile-content-wrapper {
