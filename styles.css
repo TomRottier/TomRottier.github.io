@@ -57,14 +57,19 @@ color: black
 /* Portfolio styles */
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* width: 800px; */
+    justify-content: space-evenly;
 }
 
 .portfolio-item-wrapper {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     position: relative;
-    /* height: 400px;
-    width: 400px; */
+    /* height: 400px; */
+    /* width: 1fr;; */
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio-img-background {
