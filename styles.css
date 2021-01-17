@@ -137,9 +137,6 @@ color: black
     text-align: center;
 }
 
-.about-img {
-}
-
 .profile-content-wrapper {
     padding: 30px;
 }
@@ -147,3 +144,13 @@ color: black
 .profile-content-wrapper .h1 {
     color: seagreen;
 }
+
+.contact-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    /* background-color: red; */
+    color: #8a8a8a;
+    text-align: center;
+  }
