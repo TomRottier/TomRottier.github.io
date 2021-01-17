@@ -1,3 +1,0 @@
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> -->
-<p> <a href="SprintingModel"> Computer simulation model of sprinting </p>
-<p> <a href="Visualisations"> Visualisations </p>
