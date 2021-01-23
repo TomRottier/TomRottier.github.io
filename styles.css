@@ -72,10 +72,9 @@ color: black
     justify-content: center;
 }
 
-/* .portfolio-item-wrapper a {
-    display: block;
+.portfolio-item-wrapper a {
     width: 250px;
-} */
+}
 
 .portfolio-img-background {
     height: 250px;
@@ -86,20 +85,11 @@ color: black
     margin: 0 auto
 }
 
-.img-text-wrapper {
+.subtitle {
     position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    top: 60px;
+    width: 250px;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.img-text-wrapper .subtitle {
     font-weight: 600;
     color: transparent;
 }
