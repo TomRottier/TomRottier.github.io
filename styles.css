@@ -72,6 +72,11 @@ color: black
     justify-content: center;
 }
 
+/* .portfolio-item-wrapper a {
+    display: block;
+    width: 250px;
+} */
+
 .portfolio-img-background {
     height: 250px;
     width: 250px;
@@ -94,26 +99,13 @@ color: black
     padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle a {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
-}
-
 .img-text-wrapper .subtitle {
-    transition: 1s;
     font-weight: 600;
     color: transparent;
 }
 
-.portfolio-item-wrapper:hover .subtitle a {
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-}
-
-.portfolio-item-wrapper:hover .subtitle {
-    font-weight: 600;
+.portfolio-item-wrapper:hover .subtitle{
+    transition: 1s;
     color: white;
     text-decoration: none;
 }

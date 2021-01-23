@@ -37,33 +37,36 @@
 
         <!-- Sprinting model -->
         <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/model400.png)"></div>
+          <a href="SprintingModel">
+            <div class="portfolio-img-background" style="background-image:url(images/model400.png)"></div>
+          </a>
           <div class="img-text-wrapper">
             <div class="subtitle">
-              <!-- sprinting model -->
-              <a href="SprintingModel"> sprinting model</a>
+              sprinting model
             </div>
           </div>
         </div>
 
         <!-- Visualisations -->
         <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image: url(images/fern_400.png);"></div>
+          <a href="Visualisations">
+            <div class="portfolio-img-background" style="background-image: url(images/fern_400.png);"></div>
+          </a>
           <div class="img-text-wrapper">
             <div class="subtitle">
-              <!-- visualisations -->
-              <a href="Visualisations"> visualisations </a>
+              visualisations
             </div>
           </div>
         </div>
 
         <!-- Spring mass model -->
         <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image: url(images/SpringMassModel_400.png);"></div>
+          <a href="Visualisations/diagrams/smm_sim">
+            <div class="portfolio-img-background" style="background-image: url(images/SpringMassModel_400.png);"></div>
+          </a>
           <div class="img-text-wrapper">
             <div class="subtitle">
-              <!-- visualisations -->
-              <a href="Visualisations/diagrams/smm_sim"> spring mass model simulation </a>
+              spring mass model simulation
             </div>
           </div>
         </div>
@@ -79,14 +82,16 @@
 
   portfolioItems.forEach(portfolioItem => {
     portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.add('img-darken')
+      let temp = portfolioItem.childNodes[1].childNodes[1];
+      temp.classList.add('img-darken');
       // portfolioItem.classList.add('img-darken');
     })
   })
 
   portfolioItems.forEach(portfolioItem => {
     portfolioItem.addEventListener('mouseout', () => {
-      portfolioItem.childNodes[1].classList.remove('img-darken');
+      let temp = portfolioItem.childNodes[1].childNodes[1];
+      temp.classList.remove('img-darken');
       // portfolioItem.classList.remove('img-darken');
     })
   })
