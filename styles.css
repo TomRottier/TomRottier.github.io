@@ -119,6 +119,11 @@ color: black
     text-align: center;
 }
 
+.profile-img img {
+    width: 200px;
+    /* height: 200px; */
+}
+
 .profile-content-wrapper {
     padding: 30px;
 }
